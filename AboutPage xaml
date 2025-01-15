@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CornrlSovreaLab7.AboutPage"
+             Title="AboutPage">
+	<VerticalStackLayout Spacing="10" Margin="10">
+		<HorizontalStackLayout Spacing="10">
+			<Image Source="logo_digi_alt.png" SemanticProperties.Description="My Favourite Company" HeightRequest="64" />
+			<Label FontSize="22" FontAttributes="Bold" Text="My Favourote Company" VerticalOptions="End" />
+			<Label FontSize="22" Text="v1.0" VerticalOptions="End" />
+		</HorizontalStackLayout>
+		<Label Text="Lucrăm în fiecare zi ca mâine să fim mai buni ca azi, iar acest lucru se vede. Se vede în serviciile de top, se vede în numărul celor care ne aleg, se vede în tehnologie și în cel mai nou titlu cu care ne mândrim: #1 la acoperire." />
+	</VerticalStackLayout>
+</ContentPage>
